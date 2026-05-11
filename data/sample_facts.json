@@ -1,0 +1,64 @@
+{
+  "facts": [
+    {
+      "topic": "gravity discovery",
+      "fact": "Isaac Newton discovered and formulated the law of universal gravitation around 1687, not Albert Einstein.",
+      "correct_answer": "Isaac Newton discovered gravity and published his law of universal gravitation in 1687 in Principia Mathematica.",
+      "keywords": ["gravity", "discovered", "gravitation"]
+    },
+    {
+      "topic": "speed of light",
+      "fact": "The speed of light in a vacuum is approximately 299,792,458 meters per second, or roughly 3 x 10^8 m/s.",
+      "correct_answer": "The speed of light is approximately 299,792,458 m/s (about 3 × 10⁸ m/s).",
+      "keywords": ["speed of light", "light speed", "c ="]
+    },
+    {
+      "topic": "water boiling point",
+      "fact": "Water boils at 100 degrees Celsius (212 degrees Fahrenheit) at standard atmospheric pressure (1 atm).",
+      "correct_answer": "Water boils at 100°C (212°F) at sea level.",
+      "keywords": ["water", "boiling", "boils", "temperature"]
+    },
+    {
+      "topic": "DNA discovery",
+      "fact": "The double helix structure of DNA was discovered by James Watson and Francis Crick in 1953, with significant contributions from Rosalind Franklin.",
+      "correct_answer": "DNA's double helix structure was discovered by Watson and Crick in 1953.",
+      "keywords": ["DNA", "double helix", "discovered", "genetics"]
+    },
+    {
+      "topic": "Python creator",
+      "fact": "Python programming language was created by Guido van Rossum and first released in 1991.",
+      "correct_answer": "Python was created by Guido van Rossum, first released in 1991.",
+      "keywords": ["python", "created", "programming language", "creator"]
+    },
+    {
+      "topic": "World War 2 end",
+      "fact": "World War 2 ended in 1945. In Europe, Germany surrendered on May 8, 1945 (V-E Day). Japan surrendered on September 2, 1945 (V-J Day).",
+      "correct_answer": "World War 2 ended in 1945 with Germany surrendering in May and Japan in September.",
+      "keywords": ["world war 2", "world war ii", "wwii", "ended", "surrender"]
+    },
+    {
+      "topic": "moon landing",
+      "fact": "The first humans to land on the Moon were Neil Armstrong and Buzz Aldrin on July 20, 1969, during the Apollo 11 mission.",
+      "correct_answer": "Neil Armstrong and Buzz Aldrin first landed on the Moon on July 20, 1969 (Apollo 11).",
+      "keywords": ["moon landing", "moon", "landed", "apollo", "armstrong"]
+    },
+    {
+      "topic": "Einstein relativity",
+      "fact": "Albert Einstein published the special theory of relativity in 1905 and the general theory of relativity in 1915. He did not discover gravity — that was Newton.",
+      "correct_answer": "Einstein developed the theory of relativity (special in 1905, general in 1915). Gravity was described by Newton.",
+      "keywords": ["einstein", "relativity", "theory", "physics"]
+    },
+    {
+      "topic": "number of planets",
+      "fact": "There are 8 planets in our solar system: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, and Neptune. Pluto was reclassified as a dwarf planet in 2006.",
+      "correct_answer": "Our solar system has 8 planets. Pluto is a dwarf planet since 2006.",
+      "keywords": ["planets", "solar system", "pluto", "how many planets"]
+    },
+    {
+      "topic": "Python release year",
+      "fact": "Python 3.0 was released in December 2008. Python 2.0 was released in 2000.",
+      "correct_answer": "Python 3 was released in 2008. Python 2 in 2000.",
+      "keywords": ["python 3", "python 2", "released", "version"]
+    }
+  ]
+}
