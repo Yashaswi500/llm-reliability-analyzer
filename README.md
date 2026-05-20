@@ -124,6 +124,38 @@ Dashboard at: `http://localhost:8501`
 pytest tests/test_evaluation.py -v
 ```
 
+
+## Docker Deployment
+
+### Run with Docker Compose (Recommended)
+```bash
+# Build and start both backend and frontend containers
+docker-compose up --build
+```
+- Backend API: http://localhost:8000
+- Frontend Dashboard: http://localhost:8501
+
+### Kubernetes Deployment (Minikube)
+```bash
+# Start Minikube cluster
+minikube start --driver=docker
+
+# Load Docker images into Minikube
+minikube image load llm-reliability-analyzer-backend:latest
+minikube image load llm-reliability-analyzer-frontend:latest
+
+# Deploy to Kubernetes
+kubectl apply -f backend-deployment.yaml
+kubectl apply -f frontend-deployment.yaml
+
+# Access the frontend
+minikube service llm-frontend-service
+```
+
+
+
+
+
 ---
 
 ## API Reference
